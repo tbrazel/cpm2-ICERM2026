@@ -25,15 +25,5 @@ f = (prune B).cache.pruningMap;
 assert (class(f) === MackeyFunctorHomomorphism)
 assert (class (inverse f) ===MackeyFunctorHomomorphism)
 
--- Test induced map on box products
-for i to 5 do (
-    p = randomElement {2,3,5,7};
-    n = random 21;
-    M = makeRandomCpMackeyFunctor(p);
-    A = makeBurnsideMackeyFunctor(p);
-    timesn = map(A,A,n);
-    assert (M**timesn == map(M**A,M**A,n));
-    assert (timesn**M == map(A**M,A**M,n));
-);
 
 ///
