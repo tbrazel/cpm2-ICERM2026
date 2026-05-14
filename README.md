@@ -1,6 +1,6 @@
 # $C_p$-Mackey functors in Macaulay2: ICERM 2026
 
-This is the project repository for the *Equivariant algebra and $C_p$-Mackey functors* project at the ICERM [Machine Computation in Homotopy Theory](https://icerm.brown.edu/program/topical_workshop/tw-26-mch) workshop, summer 2026.
+This is the project repository for the *Equivariant algebra and $C_p$-Mackey functors* project at the ICERM [Machine Computation in Homotopy Theory](https://icerm.brown.edu/program/topical_workshop/tw-26-mch) workshop, summer 2026. Project organizers: [Thomas Brazelton](https://github.com/tbrazel/) and [Ben Spitz](https://github.com/diracdeltafunk/).
 
 ## Project structure
 📄 **CpMackeyFunctors.m2** (the main package file, loads code/documentation/tests and exports methods)
