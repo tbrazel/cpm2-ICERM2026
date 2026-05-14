@@ -11,7 +11,7 @@ CpMackeyFunctors/        (where package files are stored)
 ├── Documentation/       (each Code file by convention has its own documentation file)
 └── Tests/               (to be deployed with the package)
 tests/
-└── ci.m2                (runs the testbot oh commit)
+└── ci.m2                (runs the testbot on commit)
 ```
 
 ## Links
