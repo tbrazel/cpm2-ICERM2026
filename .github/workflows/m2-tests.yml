@@ -34,10 +34,10 @@ jobs:
         run: M2 --version
       
       - name: Show loaded packages
-        run: M2 loadedPackages
+        run: M2 -e 'loadedPackages'
       
       - name: random element
-        run: M2 help randomElement
+        run: M2 -e 'help randomElement'
 
       - name: Install package and run tests
         run: M2 --script tests/ci.m2
