@@ -31,9 +31,8 @@ newPackage(
     },
     Headline => "homological algebra with Mackey functors for cyclic groups of prime order",
     Keywords=>{"Homotopy Theory", "Equivariant Cohomology"},
-    PackageExports=>{"Complexes","Combinatorics"},
+    PackageExports=>{"Complexes"},
     -- Complexes needed to overload `res` (alias for `freeResolution`)
-    -- Combinatorics needed for access to random methods
     AuxiliaryFiles => true,
 )
 

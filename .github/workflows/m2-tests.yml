@@ -32,6 +32,12 @@ jobs:
 
       - name: Show Macaulay2 version
         run: M2 --version
+      
+      - name: Show loaded packages
+        run: M2 loadedPackages
+      
+      - name: random element
+        run: M2 help randomElement
 
       - name: Install package and run tests
         run: M2 --script tests/ci.m2
